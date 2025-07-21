@@ -7,7 +7,7 @@ let currentTime = document.querySelector(".curr-time");
 let totalTime = document.querySelector(".tot-time");
 
 // Load your audio file
-let audio = new Audio("Daylight-chosic.com_.mp3");  // Make sure this file is in your project folder
+let audio = new Audio("/assests/Daylight-chosic.com_.mp3");  // Make sure this file is in your project folder
 
 let isPlaying = false;
 
