@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="sticky-nav">
+        <div class="stick-nav-icon">
+            <img src="backward_icon.png">
+            <img src="forward_icon.png" cl ass="hide">
+        </div>
+        <div class="home"> <i class="fa-brands fa-spotify spotify"></i> <i class="fa-solid fa-house home-icon"></i>
+        </div>
+        <div class="sticky-bar-tools">
+            <icon><i class="fa-solid fa-magnifying-glass sticky-search" style=font-size:2rem></i></icon>
+            <a class="song-searcher" href="#">What <span>do</span> you<span></span> want</span> to </span>play?</a>
+
+        </div>
+
+        <div class="sticky-nav-option">
+            <button class="badge nav-item hide explore">explore Pemiumt</button>
+            <button class="badge nav-item dark-badge install"><i class="fa-regular fa-circle-down "
+                    style="margin-right:7px;"></i>Install App</button><i class="fa-regular fa-user nav-item login"></i>
+        </div>
+    </div>
+    <div class="main">
+
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity:1">
+                    <icon><i class="fa-solid fa-house"></i>
+                    </icon>
+                    <a href="#">home</a>
+                </div>
+                <div class="nav-option">
+                    <icon><i class="fa-solid fa-magnifying-glass"></i></icon>
+                    <a href="#">search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="option">
+                    <div class="lib-option nav-option">
+                        <img src="library_icon.png">
+                        <a href="#">your library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <p class="box-p1">create your first playlist</p>
+                    <p class="box-p2">It's easy we'll help you</p>
+                    <button class="badge">create playlist</button>
+                </div>
+                <div class="boxes">
+                    <p class="box-p1">Let's find some padcost to follow</p>
+                    <p class="box-p2">we 'll keep you update on next episode </p>
+                    <button class="badge">browes podcast</button>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+           
+
+            <h2>Recently played</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="card1img.jpeg" class="card-image">
+                    <p class="card-titile">TOP 50-Global</p>
+                    <p class="card-info">Your daily update of the most played trackes...</p>
+                </div>
+            </div>
+
+            <h2>Trending now near you</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="card2img.jpeg" class="card-image">
+                    <p class="card-titile">TOP 50-Trending</p>
+                    <p class="card-info">Your daily update of the most played trackes...</p>
+                </div>
+                <div class="card">
+                    <img src="card3img.jpeg" class="card-image">
+                    <p class="card-titile">TOP 50-Rfak</p>
+                    <p class="card-info">Your daily update of the most played trackes...</p>
+                </div>
+                <div class="card">
+                    <img src="card4img.jpeg" class="card-image">
+                    <p class="card-titile">TOP 50-Party</p>
+                    <p class="card-info">Your daily update of the most played trackes...</p>
+                </div>
+                <div class="card">
+                    <img src="card3img.jpeg" class="card-image">
+                    <p class="card-titile">TOP 50-Global</p>
+                    <p class="card-info">Your daily update of the most played trackes...</p>
+                </div>
+                <div class="card">
+                    <img src="card4img.jpeg" class="card-image">
+                    <p class="card-titile">TOP 50-Global</p>
+                    <p class="card-info">Your daily update of the most played trackes...</p>
+                </div>
+            </div>
+            <h2>Feature Chart</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="card5img.jpeg" class="card-image">
+                    <p class="card-titile">TOP 50-Global</p>
+                    <p class="card-info">Your daily update of the most played trackes...</p>
+                </div>
+                <div class="card">
+                    <img src="card6img.jpeg" class="card-image">
+                    <p class="card-titile">TOP 50-India</p>
+                    <p class="card-info">Your daily update of the most played trackes...</p>
+                </div>
+                <div class="card">
+                    <img src="card1img.jpeg" class="card-image">
+                    <p class="card-titile">TOP 50-Global</p>
+                    <p class="card-info">Your daily update of the most played trackes...</p>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line">
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="music-player">
+            <div class="album">
+                <img src="album_picture.jpeg">
+                <div class="singer">
+                    <p>Daylight <br><span>David kushnar</span></p>
+
+                </div>
+                <img src="album_icon1.png" class="album-icon1">
+                <img src="album_icon2.png" class="album-icon2" style="height: 30px;">
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="player_icon1.png" class="player-control-icon">
+                    <img src="player_icon2.png" class="player-control-icon">
+                    <img src="player_icon3.png" class="player-control-icon" style="opacity:1; height:2rem">
+                    <img src="player_icon4.png" class="player-control-icon">
+                    <img src="player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="playback-bar" step="1"></div>
+                <span class="curr-time">01:23</span>
+                <input type="range" min="0" max="100" class="progress-bar">
+                <span class="tot-time">3:33</span>
+            </div>
+            <div class="controls">
+                <div class="volume-bar">
+                    <img src="controls_icon1.png" class="vlomue-bar-png" style="height:50px; opacity:1;">
+                    <img src="controld_icon2.png" class="vlomue-bar-png" style="height: 50px; opacity:1;">
+                    <img src="controls_icon3.png" class="vlomue-bar-png" style="height: 30px;">
+                    <img src="controls_icon4.png" class="vlomue-bar-png" style="height: 20px;">
+                    <img src="controls_icon5.png" class="vlomue-bar-png" style="height: 50px;">
+                    <input type="range" min="0" max="100" class="range-bar">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
